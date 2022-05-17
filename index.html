@@ -90,5 +90,24 @@ document.write("Hello World!")
 </form>
 
 <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+<h1>The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+<h1>The q element</h1>
+
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+<h1>The strong element</h1>
+
+<p>This text is normal.</p>
+
+<p><strong>This text is important!</strong></p>
 </body>
 </html>
