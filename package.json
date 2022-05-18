@@ -1,0 +1,21 @@
+{
+  "name": "1-ufos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=3002 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zasweted/1-ufos.git"
+  },
+  "keywords": [],
+  "author": "Aleksandr Vasiljev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zasweted/1-ufos/issues"
+  },
+  "homepage": "https://github.com/zasweted/1-ufos#readme"
+}
